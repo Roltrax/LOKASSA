@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestión de Productos - Tienda Virtual</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Aquí enlazas tu CSS -->
+</head>
+<body>
+  <header>
+    <h1>Panel de Administración</h1>
+    <nav>
+      <ul>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="categorias.html">Categorías</a></li>
+        <li><a href="usuarios.html">Usuarios</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="form-producto">
+      <h2>Agregar / Editar Producto</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="precio">Precio:</label>
+        <input type="number" id="precio" name="precio" step="0.01" required>
+
+        <label for="stock">Stock:</label>
+        <input type="number" id="stock" name="stock" required>
+
+        <label for="categoria">Categoría:</label>
+        <select id="categoria" name="categoria">
+          <option value="camisas">Camisas</option>
+          <option value="pantalones">Pantalones</option>
+          <option value="zapatos">Zapatos</option>
+        </select>
+
+        <button type="submit">Guardar</button>
+      </form>
+    </section>
+
+    <section id="lista-productos">
+      <h2>Lista de Productos</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Stock</th>
+            <th>Categoría</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Aquí se renderizan los productos dinámicamente -->
+          <tr>
+            <td>Camisa Azul</td>
+            <td>$50.000</td>
+            <td>20</td>
+            <td>Camisas</td>
+            <td>
+              <button>Editar</button>
+              <button>Eliminar</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Tienda Virtual</p>
+  </footer>
+</body>
+</html>

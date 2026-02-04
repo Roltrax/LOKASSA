@@ -1,13 +1,14 @@
+/* Estilos generales */
 body {
-  background: radial-gradient(circle at top, #7f5af0, #00c471);
-  color: #fff;
+  background: linear-gradient(to bottom right, black, #1a1a1a, black);
+  color: white; /* texto claro para contraste */
+  font-family: Arial, sans-serif;
   min-height: 100vh;
   overflow-x: hidden;
 }
 
 header {
-    background-color: #00c471;
-    
+    background-color: #D4AF37;
     color: black;
     padding: 1rem;
     text-align: center;
@@ -34,7 +35,7 @@ section {
 }
 
 .categoria-card {
-    background: radial-gradient(circle at top, #7f5af0, #00c471);
+    background: linear-gradient(to bottom right, black, #1a1a1a, black);
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 1rem;
@@ -42,7 +43,7 @@ section {
     min-height: 100px;
     height: auto;
     display: inline-block;
-    color:black;
+    color:#D4AF37;
 }
 
 .categoria-card:hover {
@@ -53,7 +54,7 @@ section {
 }
 
 .prenda-card {
-    background: radial-gradient(circle at top, #7f5af0, #00c471);
+    background: linear-gradient(to bottom right, black, #1a1a1a, black);
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 1rem;
@@ -64,7 +65,7 @@ section {
     text-align: center;
     vertical-align: top;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    color: black;
+    color: #D4AF37;
 }
 
 .prenda-card img {
@@ -84,21 +85,22 @@ section {
   color: black;
 }
 
-button {
-  background-color: #7f5af0;
+.button {
+  background: #D4AF37;
+  border: 2px solid black; /* marco con un poco más de opacidad */
+  padding: 10px 20px;
   color: black;
-  border: none;
-  padding: 0.5rem 1rem;
   border-radius: 5px;
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #7f5af0;
+.button:hover {
+    background: #b8860b; /* un dorado más oscuro */
+    color: white;        /* opcional: cambia el texto para contraste */
 }
 
 footer {
-    background-color: #7f5af0;
+    background-color: #D4AF37;
     color: black;
     text-align: center;
     padding: 1rem;
