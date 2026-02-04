@@ -1,0 +1,7 @@
+Repositorio del proyecto: https://github.com/Roltrax/LOKASSA.git
+
+Autor: Jorge Vargas Samper
+Evidencia: GA7-220501096-AA2-EV01
+Programa: Análisis y Desarrollo de Software - SENA
+Fecha: Enero 2026
+Descripción: Proyecto Java con conexión JDBC y CRUD completo según requerimientos del componente "Construcción de aplicaciones con JAVA".
